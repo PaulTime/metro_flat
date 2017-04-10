@@ -3,63 +3,15 @@
 @import "vars"
 
 
-*::-webkit-input-placeholder
-	color: #666
-	opacity: 1
 
-*:-moz-placeholder
-	color: #666
-	opacity: 1
-
-*::-moz-placeholder
-	color: #666
-	opacity: 1
-
-*:-ms-input-placeholder
-	color: #666
-	opacity: 1
-
-body input:focus:required:invalid,
-body textarea:focus:required:invalid
-	color: #666
-body input:required:valid,
-body textarea:required:valid
-	color: #666
-
-
-body
-	font-size: 16px
-	min-width: 320px
-	max-width: 1200px
-	margin: 0 auto
-	line-height: 1.75
-	font-family: $default-font
-	overflow-x: hidden
-	opacity: 1
-	background-color: #F2F3F4
-
-.img-responsive
-	display: block
-	max-width: 100%
-	height: auto
-
-@import "reset"
-@import "base"
-@import "layout"
-@import "modules"
-@import "state"
-
-
-
-
-
-
-
-
-
-
-
-
+@import "base/reset"
+@import "base/base"
+@import "layout/header"
+@import "layout/main"
+@import "layout/footer"
+@import "module/modules"
+@import "module/buttons"
+@import "state/state"
 
 
 
